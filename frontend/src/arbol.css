@@ -1,0 +1,90 @@
+.tree-container {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    background-color: white;
+    color: #333;
+}
+.tree-node {
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.tree-node::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #ccc;
+}
+.evaluator-text {
+    color: green;
+  }  
+.tree-node.leaf {
+    cursor: default;
+}
+.tree-node.leaf::before {
+    background-color: transparent;
+}
+.tree-node.leaf .toggle-icon {
+    display: none;
+}
+.tree-node-content {
+    position: relative;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff; 
+}
+.tree-node-content:hover {
+    background-color: #f0f0f0;
+}
+
+.node-name {
+    font-weight: bold;
+}
+.node-description {
+    font-style: italic;
+    color: #666;
+}
+.toggle-icon, .icon-collapsed, .icon-expanded {
+    margin-right: 5px;
+    border-style: solid;
+    border-width: 0.1em 0.1em 0 0;
+    display: inline-block;
+    height: 0.45em;
+    position: relative;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.45em;
+}
+.icon-expanded {
+    transform: rotate(45deg);
+}
+.evaluator-icon {
+    margin-right: 5px;
+}
+.evaluator-icon.green {
+    color: green;
+}
+.tree-root, .tree-children {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.evaluator-text {
+    color: green;
+  }  
+
+.error {
+    color: red;
+}
+.tree-node:last-child::before {
+    display: none;
+  }
+  
+  .tree-node:last-child::before {
+    height: 10px; 
+    bottom: auto;
+  }
+  
