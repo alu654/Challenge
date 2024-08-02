@@ -1,12 +1,12 @@
-# LITVIN Challenge
+# Challenge
 
-## Iniciar el proyecto
+## Starting the Project
 <ul>
   <li>
-    <u>Clonar el repositorio:</u> <br>
+    <u>Clone the repository:</u> <br>
     <code>git clone https://github.com/alu654/Challenge-Litvin.git</code> <br>
   </li>
-    <li><u>Instalar dependencias:</u> </li>
+  <li><u>Install dependencies:</u> </li>
   <li>
     <u>Front End</u><br>
     <code>cd frontend</code><br>
@@ -18,16 +18,16 @@
     <code>npm i / npm install</code> <br>
   </li>
   <li>
-    <u>Para levantar el servidor usar:</u> <br>
-     <code>cd backend </code> <br>
+    <u>To start the server, use:</u> <br>
+    <code>cd backend</code> <br>
     <code>npm run dev</code> <br>
   </li>
   <li>
-    <u>Para levantar el front usar:</u> <br>
-     <code>cd frontend </code> <br>
+    <u>To start the front end, use:</u> <br>
+    <code>cd frontend</code> <br>
     <code>npm run dev</code> <br>
   </li>
-  <li>Crear el archivo .env en la raiz de la carpeta backend siguiendo la estructura de del archivo .env.example y completar con los siguientes datos
+  <li>Create the .env file in the root of the backend folder following the structure of the .env.example file and complete it with the following data:
   <br>
     <code>DB_USER=alanfried</code><br>
     <code>DB_HOST=localhost</code><br>
@@ -42,7 +42,6 @@
 
 <ul>
   <li>
-    SE DEBE CREAR UNA BASE DE DATOS SQL CON LOS DATOS ESPECIFICADOS
+    YOU MUST CREATE A SQL DATABASE WITH THE SPECIFIED DATA
   </li>
 </ul>
-
